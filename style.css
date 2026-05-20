@@ -1,0 +1,95 @@
+/* Reset basic spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f6f9;
+    color: #333333;
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+/* Center Container (Minimalist CV Layout) */
+.portfolio-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Header Styling */
+.main-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-header h1 {
+    font-size: 32px;
+    color: #1a2530;
+    margin-bottom: 5px;
+}
+
+.tagline {
+    font-size: 16px;
+    color: #555555;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-links {
+    font-size: 14px;
+    color: #777777;
+}
+
+/* Decorative Divider Line */
+.divider {
+    border: 0;
+    height: 1px;
+    background: #e0e0e0;
+    margin: 25px 0;
+}
+
+/* Sections spacing */
+.profile-section {
+    margin-bottom: 30px;
+}
+
+.profile-section h2 {
+    font-size: 18px;
+    color: #1a2530;
+    text-transform: uppercase;
+    border-bottom: 2px solid #1a2530;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+/* Skills Layout formatting */
+.skills-group {
+    margin-bottom: 12px;
+}
+
+.skills-group h3 {
+    font-size: 14px;
+    color: #444444;
+    margin-bottom: 2px;
+}
+
+/* Flexbox Row for Education Alignment */
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+
+.date {
+    color: #666666;
+    font-size: 14px;
+}
